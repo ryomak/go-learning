@@ -1,9 +1,13 @@
+github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/goml/gobrain v0.0.0-20190330120320-499982ed3a48 h1:SuwhrDOV3AnlvZthTBylsGTm0/8VrzzieI4a26uia0E=
 github.com/goml/gobrain v0.0.0-20190330120320-499982ed3a48/go.mod h1:3C9khhaMIcUpCkbwcG7fVaqIjUOOnRxRUvZ+btWi+5A=
 github.com/muesli/smartcrop v0.3.0 h1:JTlSkmxWg/oQ1TcLDoypuirdE8Y/jzNirQeLkxpA6Oc=
 github.com/muesli/smartcrop v0.3.0/go.mod h1:i2fCI/UorTfgEpPPLWiFBv4pye+YAG78RwcQLUkocpI=
 github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6Oo2LfFZAehjjQMERAvZLEDnQ=
 github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646/go.mod h1:jpp1/29i3P1S/RLdc7JQKbRpFeM1dOBd8T9ki5s+AY8=
+github.com/patrikeh/go-deep v0.0.0-20180914121726-f06237cf3137 h1:hWWSPFijWTm+8iOSfB9cEieUOdN3sRI9VSPbUBIkUSQ=
+github.com/patrikeh/go-deep v0.0.0-20180914121726-f06237cf3137/go.mod h1:tcsR2N6c/R41PE1Sfep7Ddks8CY9bgqNEu4X8O7fook=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/ryomak/deep-learning-go v0.0.0-20190622071402-5364f0f72cf5 h1:QJ4fXrNyhvJDC4sHjYm4mFeVwS9OBGDN1ZU67Zol+oM=
 github.com/ryomak/deep-learning-go v0.0.0-20190622071402-5364f0f72cf5/go.mod h1:nb6c4sqphqGdPpC3wq+1NxQxzgZ7iJDaEyH7t6r/wBU=
 github.com/ryomak/deep-learning-go v0.0.0-20190622071756-ae0136f4d554 h1:vMH4vsI1ikPDH72Ac6+wzjhP5C2OqfTX4Z1TyE74Bgo=
@@ -92,6 +96,10 @@ github.com/ryomak/deep-learning-go v0.0.0-20190624133807-e8fd4ef07a4b h1:h5bObxI
 github.com/ryomak/deep-learning-go v0.0.0-20190624133807-e8fd4ef07a4b/go.mod h1:zhQylopvWbJQva9cObm89wYGlFxDjTfKfTxpIjpf0mA=
 github.com/ryomak/deep-learning-go v0.0.0-20190624133857-ccf9d2e7bab0 h1:DcLfhM7l5Ys8njo5gpB1QWQIxYDdfWpt0VnYu5xM730=
 github.com/ryomak/deep-learning-go v0.0.0-20190624133857-ccf9d2e7bab0/go.mod h1:zhQylopvWbJQva9cObm89wYGlFxDjTfKfTxpIjpf0mA=
+github.com/ryomak/deep-learning-go v0.0.0-20190630101440-f48785c49e2c h1:cEzEmDUgdD0xIDM4PxwAVTPVm+gfOifuYHwMb6yfp/U=
+github.com/ryomak/deep-learning-go v0.0.0-20190630101440-f48785c49e2c/go.mod h1:74S7CFTxaNcG0ntBc78MdpjobqKmYpWDhDPvPFQYloc=
+github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
+github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 golang.org/x/image v0.0.0-20190622003408-7e034cad6442 h1:KHkZ9SH+rcDwdj29lcYkks2agONXqNa8YkEGwGhY6Sg=
 golang.org/x/image v0.0.0-20190622003408-7e034cad6442/go.mod h1:FeLwcggjj3mMvU+oOTbSwawSJRM1uh48EjtB4UJZlP0=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
