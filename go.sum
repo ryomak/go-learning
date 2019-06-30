@@ -98,6 +98,8 @@ github.com/ryomak/deep-learning-go v0.0.0-20190624133857-ccf9d2e7bab0 h1:DcLfhM7
 github.com/ryomak/deep-learning-go v0.0.0-20190624133857-ccf9d2e7bab0/go.mod h1:zhQylopvWbJQva9cObm89wYGlFxDjTfKfTxpIjpf0mA=
 github.com/ryomak/deep-learning-go v0.0.0-20190630101440-f48785c49e2c h1:cEzEmDUgdD0xIDM4PxwAVTPVm+gfOifuYHwMb6yfp/U=
 github.com/ryomak/deep-learning-go v0.0.0-20190630101440-f48785c49e2c/go.mod h1:74S7CFTxaNcG0ntBc78MdpjobqKmYpWDhDPvPFQYloc=
+github.com/ryomak/deep-learning-go v0.0.0-20190630114246-c81fbb8afc4f h1:9PmO/fRsR76jajXFeFtPGTgFDay4NrWLpBeWMbLEy6c=
+github.com/ryomak/deep-learning-go v0.0.0-20190630114246-c81fbb8afc4f/go.mod h1:74S7CFTxaNcG0ntBc78MdpjobqKmYpWDhDPvPFQYloc=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 golang.org/x/image v0.0.0-20190622003408-7e034cad6442 h1:KHkZ9SH+rcDwdj29lcYkks2agONXqNa8YkEGwGhY6Sg=
