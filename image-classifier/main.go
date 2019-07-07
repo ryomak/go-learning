@@ -26,16 +26,13 @@ func main() {
 		30,
 		30,
 	)
-	b := brain.Init(&c, i)
-	err := b.LoadModel()
-	if err != nil {
-		patterns, err := i.MakePattern()
-		if err != nil {
-			panic(err)
-		}
-		b.NewAdamTrainer(0.01, len(patterns))
-		b.Train(patterns)
-	}
+  b := brain.Init(&c, i)
+  patterns, err := i.MakePattern()
+  if err != nil {
+    panic(err)
+  }
+  b.NewAdamTrainer(0.01, len(patterns))
+  b.Train(patterns)
 	gazou, err := i.Decode("input.jpg")
 	if err != nil {
 		panic(err)
@@ -43,11 +40,10 @@ func main() {
 	output, err := i.Encode(b.Output(gazou))
 	fmt.Println(b.Output(gazou))
 	fmt.Println("this picture may be ", output)
-	patterns, _ := i.MakePattern()
 	sum := float64(len(patterns))
 	correct := 0.0
 	for _, p := range patterns {
-		actual, _ := i.Encode(b.Model.Predict(p.Input))
+		actual, _ := i.Encode(b.Output(p.Input))
 		except, _ := i.Encode(p.Response)
 		if actual == except {
 			correct++
