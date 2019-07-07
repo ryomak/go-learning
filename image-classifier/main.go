@@ -12,15 +12,18 @@ func main() {
 		ModelFile:  "model.json",
 		EpochNum:   50,
 		Bias:       true,
-		Hiddens:    []int{1000, 100},
+		Hiddens:    []int{500, 100},
 		Activation: 5,
 		Mode:       0,
 	}
 	i := iclassifier.Init(
 		[]string{
-			"tida",
-			"yuna",
-			"lulu",
+			"たんぽぽ",
+			"ラベンダー",
+      "バラ",
+      "tida",
+      "yuna",
+      "lulu",
 		},
 		"dataset",
 		30,
@@ -33,6 +36,7 @@ func main() {
   }
   b.NewAdamTrainer(0.01, len(patterns))
   b.Train(patterns)
+  fmt.Println(b.Model.String())
 	gazou, err := i.Decode("input.jpg")
 	if err != nil {
 		panic(err)
