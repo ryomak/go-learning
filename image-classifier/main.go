@@ -34,9 +34,12 @@ func main() {
   if err != nil {
     panic(err)
   }
-  b.NewAdamTrainer(0.01, len(patterns))
-  b.Train(patterns)
-  fmt.Println(b.Model.String())
+  err = b.LoadModel()
+  fmt.Println(err)
+  if err != nil{
+    b.NewAdamTrainer(0.01, len(patterns))
+    b.Train(patterns)
+  }
 	gazou, err := i.Decode("input.jpg")
 	if err != nil {
 		panic(err)
@@ -44,6 +47,9 @@ func main() {
 	output, err := i.Encode(b.Output(gazou))
 	fmt.Println(b.Output(gazou))
 	fmt.Println("this picture may be ", output)
+  for num, v := range b.Output(gazou){
+		fmt.Println(i.Labels[num],":",v*100,"%")
+	}
 	sum := float64(len(patterns))
 	correct := 0.0
 	for _, p := range patterns {
